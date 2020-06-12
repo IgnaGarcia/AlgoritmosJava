@@ -1,0 +1,108 @@
+por defecto .in 
+8 4
+xabcdflu
+ntcertam
+nnnabbnm
+fffgnhom
+vhtoiaio
+thvivacc
+ytuuebab
+zxvylbnx
+oia
+certamen
+nivel
+nacional
+
+.out
+
+1 E
+1 O
+3 S
+4 N
+
+--------------------
+
+minimo palabra .in 
+2 1
+ab
+xz
+ba 
+
+.out
+
+1 O
+
+--------------------
+
+no encuentra .in
+3 3
+xyb
+mos
+las
+sol 
+ola
+pez
+
+.out
+ 
+ 
+
+
+-------------------
+
+encuentra todas .in
+4 4 
+acav
+lrzh
+oune
+hzde
+hola
+oun
+vaca
+cruz 
+
+.out
+
+1 N
+2 E
+3 O
+4 S
+
+-----------------
+
+dos veces por sentido .in
+3 1
+oso
+sos
+oso
+oso
+
+.out
+
+1 S
+1 E
+1 S
+1 O
+1 N
+1 E
+1 N
+1 O
+
+------------------
+
+dos palabras en una misma inicial .in
+5 2
+holas
+fsani
+fnjsa
+kjolk
+saloh
+hola
+holas
+
+.out
+
+1 E
+1 O
+2 E
+2 O
