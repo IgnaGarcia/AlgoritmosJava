@@ -1,0 +1,18 @@
+1)La biblioteca de un colegio contiene libros, revistas y articulos academicos.
+Las caracteristicas en comun para todo tipo de publicacion son el codigo, el titulo y el año de publicacion. Dichas caracteristicas deven poder pasarse como parametro, al momento de crear un objeto.
+Los libros, ademas, tienen un atributo prestado. Al momento de crear un libro, el mismo no se encuentra prestado.
+Las revistas tienen ademas un numero. Al momento de crear una revista, dicho numero se pasa por parametro.
+Los articulos academicos tienen ademas un autor, el cual se pasa como parametro cuando se crea el articulo.
+Todos los tipos de publicaciones tienen un metodo de respresentacion en cadena (toString()) que debe devolver el valor de todos los atributos en una cadena de caracteres.
+Para facilitar el agregado de nuevos tipos de publicacion, se debe implementar una interfaz Prestable con los metodos prestar(), devolver() y estaPrestado(). Los libros deben implementar esta interfaz, para lo cual:
+-el metodo prestar() modifica el atributo prestado a verdadero.
+-el metodo devolver() modifica el atributo prestado a falso.
+-el metodo estaPrestado() devuelve verdadero si el libro esta prestado, y falso en caso contrario.
+Implementar las clases el interfaz necesarias y una prueba de lo implementado
+
+2) A la aplicación desarrollada en el punto 1, agregar una nueva clase que contenga dos métodos de instancia:
+- contarPrestados() recibe por parámetro un vector de objetos que se pueden prestar y cuenta y devuelve la cantidad de ellos que han sido prestados
+- publicacionesAnteriores() recibe por parámetro un vector de publicaciones y un año. El método recorrerá el vector de publicaciones y contará y devolverá la cantidad de publicaciones cuyo año de publicación sea menor que el recibido por parámetro.
+
+
+
